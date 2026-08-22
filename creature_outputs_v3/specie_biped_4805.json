@@ -1,0 +1,33 @@
+{
+  "id": "specie_biped_4805",
+  "body_plan": "biped",
+  "eco_vars": {
+    "temperature": -25,
+    "humidity": 40,
+    "altitude": 5500,
+    "pressure": 0.6,
+    "resources": 30
+  },
+  "anatomy": {
+    "plan": "biped",
+    "limbs": 2,
+    "arms": 0,
+    "posture": "erect",
+    "head_position": "top",
+    "spine_segments": 7
+  },
+  "survival": {
+    "mechanisms": [
+      "thick_fur",
+      "expanded_lung_capacity"
+    ],
+    "energy_source": "omnivore",
+    "lifespan_estimate": 86
+  },
+  "palette": [
+    "#E0F7FA",
+    "#B2EBF2",
+    "#81D4FA",
+    "#FFFFFF"
+  ]
+}

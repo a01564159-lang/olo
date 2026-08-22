@@ -1,0 +1,60 @@
+{
+  "body_plan": "serpentino",
+  "anatomy": {
+    "body_plan": "serpentino",
+    "limbs": 0,
+    "body_segments": 21,
+    "cross_section": "cylindrical",
+    "armor_type": "overlapping_scales",
+    "sensory_organs": [
+      "heat_pits",
+      "forked_tongue",
+      "lateral_line"
+    ],
+    "size_range": [
+      1.0,
+      3.0
+    ]
+  },
+  "survival": {
+    "heat_adaptation": [
+      "reflective_surface",
+      "evaporative_cooling",
+      "nocturnal_behavior"
+    ],
+    "desert_adaptation": [
+      "water_storage",
+      "reduced_respiration",
+      "waxy_cuticle"
+    ],
+    "energy_source": "specialized_carnivore"
+  },
+  "spatial_rules": {
+    "required_neighbors": [
+      "continuous_path"
+    ],
+    "tolerated_neighbors": [
+      "sand",
+      "rocky_crevice",
+      "sparse_vegetation",
+      "shallow_water"
+    ],
+    "forbidden_neighbors": [
+      "dense_obstacles",
+      "vertical_barriers"
+    ],
+    "habitat_preference": [
+      "desert",
+      "grassland",
+      "riverbank"
+    ]
+  },
+  "energy_source": "specialized_carnivore",
+  "ecological_input": {
+    "temperature": 42,
+    "humidity": 10,
+    "altitude": 500,
+    "pressure": 1.0,
+    "resources": 0.2
+  }
+}

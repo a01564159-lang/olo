@@ -1,0 +1,24 @@
+{
+  "species_id": "specie_cephalopod_2145",
+  "body_plan": "cephalopod",
+  "ecological_params": {
+    "temperature": 4,
+    "humidity": 95,
+    "altitude": -400,
+    "pressure": 1.4,
+    "resources": 0.6
+  },
+  "adaptations": [
+    "branquias",
+    "piel_permeable"
+  ],
+  "palette": [
+    "#0D47A1",
+    "#1565C0",
+    "#1976D2",
+    "#42A5F5"
+  ],
+  "energy_source": "quimiosintesis",
+  "locomotion": "jet_propulsion",
+  "timestamp": "2026-08-22T03:06:55.194199"
+}

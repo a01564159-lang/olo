@@ -1,0 +1,29 @@
+{
+  "id": "specie_hexapod_7349",
+  "body_plan": "hexapod",
+  "eco_vars": {
+    "temperature": 20,
+    "humidity": 50,
+    "altitude": 0,
+    "pressure": 1.0,
+    "resources": 90
+  },
+  "anatomy": {
+    "plan": "hexapod",
+    "limbs": 6,
+    "exoskeleton": false,
+    "head_position": "front",
+    "tail": true
+  },
+  "survival": {
+    "mechanisms": [],
+    "energy_source": "omnivore",
+    "lifespan_estimate": 90
+  },
+  "palette": [
+    "#4E342E",
+    "#5D4037",
+    "#795548",
+    "#A1887F"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "species_id": "specie_radial_7163",
+  "body_plan": "radial",
+  "ecological_params": {
+    "temperature": 20,
+    "humidity": 50,
+    "altitude": 0,
+    "pressure": 1.0,
+    "resources": 0.7
+  },
+  "adaptations": [],
+  "palette": [
+    "#4E342E",
+    "#5D4037",
+    "#795548",
+    "#A1887F"
+  ],
+  "energy_source": "heterotrofo",
+  "locomotion": "radial_crawling",
+  "timestamp": "2026-08-22T03:06:55.221043"
+}

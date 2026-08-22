@@ -1,0 +1,56 @@
+{
+  "body_plan": "b\u00edpedo",
+  "anatomy": {
+    "body_plan": "b\u00edpedo",
+    "limbs": 2,
+    "posture": "erect",
+    "spine_segments": 10,
+    "armor_type": "thick_fur",
+    "sensory_organs": [
+      "forward_eyes",
+      "external_ears"
+    ],
+    "size_range": [
+      1.5,
+      2.5
+    ]
+  },
+  "survival": {
+    "cold_adaptation": [
+      "antifreeze_proteins",
+      "insulating_layer",
+      "reduced_surface_area"
+    ],
+    "high_altitude": [
+      "enhanced_hemoglobin",
+      "increased_lung_capacity"
+    ],
+    "energy_source": "opportunistic_predator"
+  },
+  "spatial_rules": {
+    "required_neighbors": [
+      "solid_ground",
+      "vertical_space"
+    ],
+    "tolerated_neighbors": [
+      "rocky_outcrop",
+      "sparse_vegetation"
+    ],
+    "forbidden_neighbors": [
+      "deep_water",
+      "dense_swamp"
+    ],
+    "habitat_preference": [
+      "mountainous",
+      "temperate_grassland"
+    ]
+  },
+  "energy_source": "opportunistic_predator",
+  "ecological_input": {
+    "temperature": -25,
+    "humidity": 45,
+    "altitude": 5500,
+    "pressure": 0.5,
+    "resources": 0.3
+  }
+}

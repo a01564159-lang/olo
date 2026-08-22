@@ -1,0 +1,26 @@
+{
+  "species_id": "specie_serpentine_4141",
+  "body_plan": "serpentine",
+  "ecological_params": {
+    "temperature": 42,
+    "humidity": 10,
+    "altitude": 200,
+    "pressure": 1.0,
+    "resources": 0.2
+  },
+  "adaptations": [
+    "refrigeracion_activa",
+    "conservacion_agua",
+    "exoesqueleto_impermeable",
+    "almacenamiento_agua"
+  ],
+  "palette": [
+    "#FFF3E0",
+    "#FFE0B2",
+    "#FFCA28",
+    "#E65100"
+  ],
+  "energy_source": "heterotrofo",
+  "locomotion": "undulatory",
+  "timestamp": "2026-08-22T03:06:55.167440"
+}

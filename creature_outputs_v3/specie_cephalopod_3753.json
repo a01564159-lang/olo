@@ -1,0 +1,31 @@
+{
+  "id": "specie_cephalopod_3753",
+  "body_plan": "cephalopod",
+  "eco_vars": {
+    "temperature": 4,
+    "humidity": 95,
+    "altitude": -400,
+    "pressure": 1.8,
+    "resources": 40
+  },
+  "anatomy": {
+    "plan": "cephalopod",
+    "mantle_size": "large",
+    "tentacles": 7,
+    "eyes": "simple",
+    "siphon": true
+  },
+  "survival": {
+    "mechanisms": [
+      "pressure_resistant_shell"
+    ],
+    "energy_source": "omnivore",
+    "lifespan_estimate": 11
+  },
+  "palette": [
+    "#1B5E20",
+    "#2E7D32",
+    "#4CAF50",
+    "#81C784"
+  ]
+}

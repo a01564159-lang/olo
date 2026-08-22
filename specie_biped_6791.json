@@ -1,0 +1,27 @@
+{
+  "species_id": "specie_biped_6791",
+  "body_plan": "biped",
+  "ecological_params": {
+    "temperature": -25,
+    "humidity": 40,
+    "altitude": 5500,
+    "pressure": 0.5,
+    "resources": 0.3
+  },
+  "adaptations": [
+    "capa_antifreeze",
+    "metabolismo_lento",
+    "hemoglobina_eficiente",
+    "pulmones_amplios",
+    "cuerpo_presurizado"
+  ],
+  "palette": [
+    "#E0F7FA",
+    "#B2EBF2",
+    "#81D4FA",
+    "#FFFFFF"
+  ],
+  "energy_source": "heterotrofo",
+  "locomotion": "bipedal",
+  "timestamp": "2026-08-22T03:06:55.098373"
+}

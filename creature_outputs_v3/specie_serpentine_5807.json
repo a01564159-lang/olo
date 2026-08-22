@@ -1,0 +1,31 @@
+{
+  "id": "specie_serpentine_5807",
+  "body_plan": "serpentine",
+  "eco_vars": {
+    "temperature": 42,
+    "humidity": 10,
+    "altitude": 200,
+    "pressure": 1.0,
+    "resources": 15
+  },
+  "anatomy": {
+    "plan": "serpentine",
+    "segments": 13,
+    "limbs": 0,
+    "fins": false
+  },
+  "survival": {
+    "mechanisms": [
+      "heat_dissipation_plates",
+      "water_retention_sacs"
+    ],
+    "energy_source": "omnivore",
+    "lifespan_estimate": 57
+  },
+  "palette": [
+    "#E65100",
+    "#EF6C00",
+    "#F57F17",
+    "#FFF3E0"
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "id": "specie_radial_4611",
+  "body_plan": "radial",
+  "eco_vars": {
+    "temperature": 32,
+    "humidity": 85,
+    "altitude": 100,
+    "pressure": 1.0,
+    "resources": 80
+  },
+  "anatomy": {
+    "plan": "radial",
+    "symmetry_order": 5,
+    "central_mouth": true,
+    "appendages": "radiating"
+  },
+  "survival": {
+    "mechanisms": [],
+    "energy_source": "omnivore",
+    "lifespan_estimate": 43
+  },
+  "palette": [
+    "#1B5E20",
+    "#2E7D32",
+    "#4CAF50",
+    "#81C784"
+  ]
+}
