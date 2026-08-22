@@ -1,0 +1,8 @@
+# Material for WFC Creature
+newmtl creature_mat
+Ka 0.10 0.10 0.10
+Kd 0.50 0.50 0.50
+Ks 0.3 0.3 0.3
+Ns 50
+d 1.0
+illum 2
