@@ -1,0 +1,7 @@
+{
+  "name": "dragon_desert",
+  "type": "flier",
+  "biome": "desert",
+  "voxel_count": 472,
+  "description": "Criatura flier adaptada a desert"
+}

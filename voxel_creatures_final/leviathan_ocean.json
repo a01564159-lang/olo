@@ -1,0 +1,7 @@
+{
+  "name": "leviathan_ocean",
+  "type": "aquatic",
+  "biome": "ocean",
+  "voxel_count": 508,
+  "description": "Criatura aquatic adaptada a ocean"
+}
