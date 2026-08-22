@@ -1,0 +1,7 @@
+newmtl M_beetle_jungle
+Ka 0.04000000000000001 0.13 0.06
+Kd 0.2 0.65 0.3
+Ks 0.5 0.5 0.5
+Ns 50
+d 1.0
+illum 2
