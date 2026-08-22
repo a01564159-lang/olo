@@ -2,7 +2,7 @@
 *.pyc
 __pycache__/
 *.o
-*.obj
+# *.obj (descomentado para permitir archivos 3D)
 *.out
 
 # Dependencies
