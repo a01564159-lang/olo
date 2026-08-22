@@ -1,3 +1,5 @@
-```python
-creature_wfc_morphology.py
-```
+*.pyc
+__pycache__/
+*.png
+*.json
+creature_outputs_*/
