@@ -1,0 +1,75 @@
+{
+  "creature_id": "CRTR-0001-2311",
+  "environmental_signature": {
+    "temperature": 35,
+    "humidity": 15,
+    "altitude": 800,
+    "atmospheric_pressure": 0.95,
+    "resource_density": 30
+  },
+  "anatomy": {
+    "limbs": {
+      "name": "retractable_limbs",
+      "description": "6 limbs optimized for standard conditions",
+      "adaptation_value": 0.4
+    },
+    "armor": {
+      "name": "bony_protrusions",
+      "description": "Protective structure adapted to standard environment",
+      "adaptation_value": 0.32
+    },
+    "sensory_organs": {
+      "name": "long_range_sensors",
+      "description": "Sensory systems for standard perception",
+      "adaptation_value": 0.36
+    },
+    "limb_count": 6,
+    "body_mass_index": 3.93
+  },
+  "survival_mechanisms": [
+    {
+      "type": "heat_dissipation",
+      "description": "Specialized pores and reflective surface structures",
+      "efficiency": 0.7
+    },
+    {
+      "type": "water_conservation",
+      "description": "Closed respiratory system with moisture recovery",
+      "efficiency": 0.85
+    }
+  ],
+  "spatial_constraints": [
+    {
+      "type": "habitat_tolerance",
+      "required_neighbors": [],
+      "forbidden_neighbors": [
+        "H"
+      ],
+      "weight": 0.6
+    },
+    {
+      "type": "thermal_isolation",
+      "required_neighbors": [],
+      "forbidden_neighbors": [
+        "C"
+      ],
+      "weight": 0.5
+    }
+  ],
+  "energy_source": "organic_consumption",
+  "climate_tolerance": {
+    "temp_min": 25.8,
+    "temp_max": 44.2,
+    "humidity_min": 1.2,
+    "humidity_max": 28.8,
+    "altitude_min": 110.0,
+    "altitude_max": 1490.0,
+    "pressure_min": 0.81,
+    "pressure_max": 1.09
+  },
+  "metadata": {
+    "generation_timestamp": "eco-engine-v1.0",
+    "adaptation_score": 0.4,
+    "complexity_index": 4
+  }
+}

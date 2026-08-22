@@ -1,0 +1,73 @@
+{
+  "creature_id": "CRTR-0001-2824",
+  "environmental_signature": {
+    "temperature": -15,
+    "humidity": 40,
+    "altitude": 5500,
+    "atmospheric_pressure": 0.6,
+    "resource_density": 25
+  },
+  "anatomy": {
+    "limbs": {
+      "name": "reduced_limbs",
+      "description": "4 limbs optimized for high altitude conditions",
+      "adaptation_value": 0.5
+    },
+    "armor": {
+      "name": "pressurized_sacs",
+      "description": "Protective structure adapted to standard environment",
+      "adaptation_value": 0.4
+    },
+    "sensory_organs": {
+      "name": "compound_eyes",
+      "description": "Sensory systems for standard perception",
+      "adaptation_value": 0.45
+    },
+    "limb_count": 4,
+    "body_mass_index": 3.87
+  },
+  "survival_mechanisms": [
+    {
+      "type": "pressure_equalization",
+      "description": "Internal pressure sacs with gas exchange",
+      "efficiency": 0.8
+    }
+  ],
+  "spatial_constraints": [
+    {
+      "type": "habitat_tolerance",
+      "required_neighbors": [],
+      "forbidden_neighbors": [
+        "H"
+      ],
+      "weight": 0.6
+    },
+    {
+      "type": "altitude_clustering",
+      "required_neighbors": [
+        "C",
+        "A"
+      ],
+      "forbidden_neighbors": [
+        "H"
+      ],
+      "weight": 0.7
+    }
+  ],
+  "energy_source": "atmospheric_absorption",
+  "climate_tolerance": {
+    "temp_min": -25.0,
+    "temp_max": -5.0,
+    "humidity_min": 25.0,
+    "humidity_max": 55.0,
+    "altitude_min": 4752.0,
+    "altitude_max": 6248.0,
+    "pressure_min": 0.5,
+    "pressure_max": 0.75
+  },
+  "metadata": {
+    "generation_timestamp": "eco-engine-v1.0",
+    "adaptation_score": 0.497,
+    "complexity_index": 3
+  }
+}

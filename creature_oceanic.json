@@ -1,0 +1,71 @@
+{
+  "creature_id": "CRTR-0001-4757",
+  "environmental_signature": {
+    "temperature": 4,
+    "humidity": 100,
+    "altitude": 100,
+    "atmospheric_pressure": 1.5,
+    "resource_density": 60
+  },
+  "anatomy": {
+    "limbs": {
+      "name": "moisture_absorbing_pads",
+      "description": "7 limbs optimized for standard conditions",
+      "adaptation_value": 0.46
+    },
+    "armor": {
+      "name": "moisture_retaining_armor",
+      "description": "Protective structure adapted to standard environment",
+      "adaptation_value": 0.37
+    },
+    "sensory_organs": {
+      "name": "tactile_antennae",
+      "description": "Sensory systems for standard perception",
+      "adaptation_value": 0.41
+    },
+    "limb_count": 7,
+    "body_mass_index": 3.66
+  },
+  "survival_mechanisms": [
+    {
+      "type": "moisture_regulation",
+      "description": "Semi-permeable membrane for water exchange",
+      "efficiency": 1.0
+    }
+  ],
+  "spatial_constraints": [
+    {
+      "type": "habitat_preference",
+      "required_neighbors": [
+        "H",
+        "R"
+      ],
+      "forbidden_neighbors": [],
+      "weight": 0.8
+    },
+    {
+      "type": "resource_dependency",
+      "required_neighbors": [
+        "R"
+      ],
+      "forbidden_neighbors": [],
+      "weight": 0.6
+    }
+  ],
+  "energy_source": "organic_consumption",
+  "climate_tolerance": {
+    "temp_min": -5.7,
+    "temp_max": 13.7,
+    "humidity_min": 85.5,
+    "humidity_max": 100,
+    "altitude_min": 0,
+    "altitude_max": 825.0,
+    "pressure_min": 1.35,
+    "pressure_max": 1.5
+  },
+  "metadata": {
+    "generation_timestamp": "eco-engine-v1.0",
+    "adaptation_score": 0.459,
+    "complexity_index": 3
+  }
+}

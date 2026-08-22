@@ -1,0 +1,89 @@
+{
+  "creature_id": "CRTR-0001-1857",
+  "environmental_signature": {
+    "temperature": 28,
+    "humidity": 85,
+    "altitude": 200,
+    "atmospheric_pressure": 1.0,
+    "resource_density": 80
+  },
+  "anatomy": {
+    "limbs": {
+      "name": "moisture_absorbing_pads",
+      "description": "4 limbs optimized for standard conditions",
+      "adaptation_value": 0.38
+    },
+    "armor": {
+      "name": "crystalline_plating",
+      "description": "Protective structure adapted to high resources environment",
+      "adaptation_value": 0.3
+    },
+    "sensory_organs": {
+      "name": "bio_luminescent_markers",
+      "description": "Sensory systems for standard perception",
+      "adaptation_value": 0.34
+    },
+    "limb_count": 4,
+    "body_mass_index": 2.2
+  },
+  "survival_mechanisms": [
+    {
+      "type": "heat_dissipation",
+      "description": "Specialized pores and reflective surface structures",
+      "efficiency": 0.56
+    },
+    {
+      "type": "moisture_regulation",
+      "description": "Semi-permeable membrane for water exchange",
+      "efficiency": 0.85
+    },
+    {
+      "type": "mineral_absorption",
+      "description": "Direct mineral uptake through specialized appendages",
+      "efficiency": 0.8
+    }
+  ],
+  "spatial_constraints": [
+    {
+      "type": "habitat_preference",
+      "required_neighbors": [
+        "H",
+        "R"
+      ],
+      "forbidden_neighbors": [],
+      "weight": 0.8
+    },
+    {
+      "type": "resource_dependency",
+      "required_neighbors": [
+        "R"
+      ],
+      "forbidden_neighbors": [],
+      "weight": 0.8
+    },
+    {
+      "type": "thermal_isolation",
+      "required_neighbors": [],
+      "forbidden_neighbors": [
+        "C"
+      ],
+      "weight": 0.5
+    }
+  ],
+  "energy_source": "chemosynthesis",
+  "climate_tolerance": {
+    "temp_min": 19.0,
+    "temp_max": 37.0,
+    "humidity_min": 71.5,
+    "humidity_max": 98.5,
+    "altitude_min": 0,
+    "altitude_max": 876.0,
+    "pressure_min": 0.86,
+    "pressure_max": 1.14
+  },
+  "metadata": {
+    "generation_timestamp": "eco-engine-v1.0",
+    "adaptation_score": 0.377,
+    "complexity_index": 6
+  }
+}
