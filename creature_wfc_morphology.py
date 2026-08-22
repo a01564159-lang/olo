@@ -356,6 +356,11 @@ class WFCGenerator:
             
         return False
 
+    def _run_with_restart(self) -> List[List[Optional[WFCTile]]]:
+        """Reinicia la generación desde cero."""
+        print("   ⚠️  Contradicción detectada, reiniciando WFC...")
+        return self.generate()
+    
     def generate(self) -> List[List[Optional[WFCTile]]]:
         """Ejecuta el algoritmo WFC."""
         # Inicializar grilla con todos los tiles posibles
@@ -415,8 +420,8 @@ class WFCGenerator:
                             if len(new_options) == 1 and (nx, ny) not in observed:
                                 observed.append((nx, ny))
                             elif len(new_options) == 0:
-                                # Contradicción - Reinicio simple (para demo)
-                                return self.generate() 
+                                # Contradicción - Reinicio completo (para demo)
+                                return self._run_with_restart()
 
             # 2. Colapso (Elegir la celda con menor entropía)
             min_entropy = 9999
