@@ -1,1 +1,3 @@
-Nothing needs to be added to .gitignore since only a Python source file (.py) was added and there are no build artifacts, dependencies, or temporary files in the changes.
+```python
+creature_wfc_morphology.py
+```
