@@ -1,7 +1,0 @@
-{
-  "name": "griffin_alpine",
-  "type": "biped",
-  "biome": "alpine",
-  "voxel_count": 373,
-  "description": "Criatura biped adaptada a alpine"
-}

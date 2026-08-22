@@ -1,7 +1,0 @@
-{
-  "name": "beetle_jungle",
-  "type": "quadruped",
-  "biome": "jungle",
-  "voxel_count": 440,
-  "description": "Criatura quadruped adaptada a jungle"
-}
