@@ -1,0 +1,7 @@
+newmtl M_spore_walker
+Ka 0.12 0.06 0.16000000000000003
+Kd 0.6 0.3 0.8
+Ks 0.6 0.6 0.6
+Ns 60
+d 1.0
+illum 2
