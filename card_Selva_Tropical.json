@@ -1,0 +1,78 @@
+{
+  "inputs": {
+    "temp": 32,
+    "humidity": 90,
+    "altitude": 200,
+    "pressure": 100,
+    "resources": 80
+  },
+  "temperature": 32,
+  "humidity": 90,
+  "pressure": 100,
+  "anatomy": {
+    "limb_count": 4,
+    "armor_level": 10,
+    "size_class": "gigante"
+  },
+  "survival": {
+    "energy_source": "fotosintesis",
+    "climate_tolerance": "extrema",
+    "metabolism": "rapido"
+  },
+  "wfc_rules": {
+    "weights": {
+      "center": 1.5,
+      "head": 0.2,
+      "tail": 0.2,
+      "limb_up": 0.2,
+      "limb_down": 0.2,
+      "limb_left": 0.4,
+      "limb_right": 0.4,
+      "joint": 0.5,
+      "empty": 0.1
+    },
+    "adjacency": {
+      "center": [
+        "head",
+        "tail",
+        "limb_up",
+        "limb_down",
+        "limb_left",
+        "limb_right",
+        "joint",
+        "center"
+      ],
+      "head": [
+        "center",
+        "joint"
+      ],
+      "tail": [
+        "center",
+        "joint"
+      ],
+      "limb_up": [
+        "center",
+        "joint"
+      ],
+      "limb_down": [
+        "center",
+        "joint"
+      ],
+      "joint": [
+        "center",
+        "head",
+        "tail",
+        "limb_up",
+        "limb_down",
+        "limb_left",
+        "limb_right",
+        "joint"
+      ],
+      "empty": [
+        "empty",
+        "center",
+        "tail"
+      ]
+    }
+  }
+}

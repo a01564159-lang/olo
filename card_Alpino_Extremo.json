@@ -1,0 +1,78 @@
+{
+  "inputs": {
+    "temp": -10,
+    "humidity": 30,
+    "altitude": 5000,
+    "pressure": 50,
+    "resources": 20
+  },
+  "temperature": -10,
+  "humidity": 30,
+  "pressure": 50,
+  "anatomy": {
+    "limb_count": 6,
+    "armor_level": 10,
+    "size_class": "peque\u00f1o"
+  },
+  "survival": {
+    "energy_source": "quimiosintesis",
+    "climate_tolerance": "extrema",
+    "metabolism": "lento"
+  },
+  "wfc_rules": {
+    "weights": {
+      "center": 1.0,
+      "head": 0.2,
+      "tail": 0.2,
+      "limb_up": 0.6,
+      "limb_down": 0.6,
+      "limb_left": 0.6,
+      "limb_right": 0.6,
+      "joint": 0.5,
+      "empty": 0.1
+    },
+    "adjacency": {
+      "center": [
+        "head",
+        "tail",
+        "limb_up",
+        "limb_down",
+        "limb_left",
+        "limb_right",
+        "joint",
+        "center"
+      ],
+      "head": [
+        "center",
+        "joint"
+      ],
+      "tail": [
+        "center",
+        "joint"
+      ],
+      "limb_up": [
+        "center",
+        "joint"
+      ],
+      "limb_down": [
+        "center",
+        "joint"
+      ],
+      "joint": [
+        "center",
+        "head",
+        "tail",
+        "limb_up",
+        "limb_down",
+        "limb_left",
+        "limb_right",
+        "joint"
+      ],
+      "empty": [
+        "empty",
+        "center",
+        "tail"
+      ]
+    }
+  }
+}
